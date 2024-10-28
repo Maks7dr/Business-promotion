@@ -2,6 +2,37 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: #22343d;
+  background: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+img {
+  display: block;
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+.logo-menu,
+.button {
+  padding: 0;
+  margin: 0;
 }
 .container {
   max-width: 1110px;
@@ -11,6 +42,7 @@ body {
 .header {
   display: flex;
   padding-top: 19px;
+  padding-bottom: 19px;
 }
 .nav {
   display: flex;
@@ -37,16 +69,15 @@ body {
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  margin: 0;
+
   gap: 30px;
-  padding-left: 0;
 }
 .menu-calc {
   flex-basis: calc((100% - 3 * 30) / 4);
 }
 .menu {
   font-weight: 400;
-  font-size: 16px;
+
   line-height: 1.75;
   color: #22343d;
   text-decoration: none;
@@ -60,8 +91,6 @@ body {
   align-items: center;
   list-style-type: none;
   gap: 21px;
-  margin: 0;
-  padding: 0;
 }
 .btn-sign-in-white {
   border: 1px solid #bcd0e5;
@@ -86,4 +115,71 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+.container-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 100px;
+}
+.hero {
+  display: block;
+  margin: 112px 35px 112px 0;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+.hero-text {
+  font-size: 18px;
+  line-height: 1.55556;
+  margin-bottom: 45px;
+}
+.hero-button {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero-btn-start {
+  display: block;
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
+  background: #02897a;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.hero-btn-watch {
+  display: flex;
+  border: none;
+  align-items: center;
+
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+.hero-btn-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8.66px;
+}
+.hero-btn-text {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+}
+.hero-img {
+  display: block;
 }

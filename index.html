@@ -48,22 +48,34 @@
     <!-- main -->
     <main>
       <!-- hero -->
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <ul>
-          <li><button type="button">Get started</button></li>
-          <li><button type="button">Watch the Video</button></li>
-        </ul>
-        <img
-          src="./images/hero-img.jpg"
-          alt="hero-img"
-          width="610"
-          height="555"
-        />
+      <section class="container container-hero">
+        <div class="hero">
+          <h1 class="hero-title">Work at the speed of thought</h1>
+          <p class="hero-text">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <ul class="hero-button">
+            <li>
+              <button type="button" class="hero-btn-start">Get started</button>
+            </li>
+            <li>
+              <button type="button" class="hero-btn-watch">
+                <span class="hero-btn-svg">
+                  <svg width="16" height="18">
+                    <use href="./images/icons.svg#watch-play"></use>
+                  </svg>
+                </span>
+                <span class="hero-btn-text">Watch the Video</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-img">
+          <svg width="610" height="555">
+            <use href="./images/icons.svg#hero-img"></use>
+          </svg>
+        </div>
       </section>
       <!-- feature -->
       <section>
