@@ -183,3 +183,78 @@ ol {
 .hero-img {
   display: block;
 }
+
+.feature-title {
+  font-weight: 700;
+  font-size: 32px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 539px;
+  margin-bottom: 50px;
+}
+.feature-list {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+.feature-svg-1 {
+  display: block;
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background: #02897a;
+  margin-bottom: 18.11px;
+}
+.feature-svg-2 {
+  display: block;
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background: #4d8dff;
+  margin-bottom: 18.11px;
+}
+.feature-svg-3 {
+  display: block;
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background: #740a76;
+  margin-bottom: 18.11px;
+}
+.feature-svg-4 {
+  display: block;
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  background: #f03e3d;
+  margin-bottom: 18.11px;
+}
+.feature-name {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+.feature-text {
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 50px;
+}
+.feature-btn {
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+  background-color: #02897a;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
