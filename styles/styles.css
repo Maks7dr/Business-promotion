@@ -257,4 +257,54 @@ ol {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
+}
+.container-manager {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+.manager-box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 85px;
+}
+.manager-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.manager-span {
+  font-weight: 700;
+  font-size: 32px;
+}
+.manager-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 35px;
+}
+.manager-chouse {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  list-style-type: none;
+}
+.manager-chouse-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 12px;
+}
+.manager-chouse-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+}
+.manager-svg {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
