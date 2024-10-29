@@ -626,3 +626,115 @@ ol {
   cursor: pointer;
   border: none;
 }
+.container-feedback {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  align-items: center;
+}
+.feedback-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78125;
+  letter-spacing: 0.01em;
+  margin-bottom: 10px;
+}
+.feedback-title-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 573px;
+}
+.feedback-box {
+  display: flex;
+  gap: 64px;
+  list-style-type: none;
+}
+.feedback-box-group {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  width: 327px;
+  padding: 0;
+}
+.feedback-svg {
+  margin-bottom: 16px;
+  margin-top: 28px;
+  margin-left: 26px;
+}
+.feedback-box-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 16px;
+  margin-left: 26px;
+}
+.feedback-box-group-people {
+  display: flex;
+  gap: 14px;
+  margin-left: 26px;
+  margin-bottom: 28px;
+}
+.feedback-box-group-people-wahid {
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+  text-decoration: none;
+}
+.feedback-text-desiner {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+}
+.promo-box {
+  display: flex;
+
+  border-radius: 32px;
+  width: 968px;
+  height: 345px;
+  background: #02897a;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.promo-box-group {
+  display: block;
+  margin-left: 51px;
+  margin-top: 49px;
+  margin-bottom: 56px;
+}
+.promo-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  border: none;
+  max-width: 510px;
+  margin-bottom: 46px;
+}
+.promo-btn {
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.promo-screen {
+  margin-top: 4px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
