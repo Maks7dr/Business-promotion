@@ -390,3 +390,45 @@ ol {
   border: none;
   cursor: pointer;
 }
+.container-news-feed {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 171px;
+  justify-content: left;
+}
+.news-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.news-title-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 40px;
+}
+.news-box {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+.news-box-group {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  width: 350px;
+}
+.news-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  margin-top: 24px;
+  margin-left: 24.4px;
+  margin-bottom: 12px;
+}
+.news-text-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  margin-left: 27px;
+  margin-bottom: 40px;
+}
