@@ -259,17 +259,17 @@ ol {
   margin-right: auto;
   margin-bottom: 50px;
 }
-.container-manager {
+.container-box-3 {
   display: flex;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   align-items: center;
 }
 .manager-box {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-right: 85px;
+  margin-right: 84px;
 }
 .manager-title {
   font-weight: 600;
@@ -307,4 +307,86 @@ ol {
   display: block;
   justify-content: center;
   align-items: center;
+}
+.support-svg {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-right: 84px;
+}
+.support-box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.support-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  margin-bottom: 30px;
+}
+.support-chouse {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  list-style-type: none;
+}
+.container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.staff-box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 542px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.staff-people {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.staff-people-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  width: 408px;
+  justify-content: space-around;
+}
+.staff-vector {
+  position: relative;
+}
+.staff-text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  z-index: 999;
+}
+.staff-people-box-white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.staff-btn {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  width: 216px;
+  height: 53px;
+  background: #02897a;
+  border: none;
+  cursor: pointer;
 }
