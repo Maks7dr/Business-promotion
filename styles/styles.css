@@ -76,7 +76,6 @@ ol {
 }
 .menu {
   font-weight: 400;
-
   line-height: 1.75;
   color: #22343d;
   text-decoration: none;
@@ -102,6 +101,11 @@ ol {
   color: #173a56;
   background-color: transparent;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-sign-in-white:hover,
+.btn-sign-in-white:focus {
+  background-color: #e0e0e0;
 }
 .btn-sign-in-black {
   border-radius: 4px;
@@ -114,6 +118,11 @@ ol {
   color: #fff;
   border: none;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-sign-in-black:hover,
+.btn-sign-in-black:focus {
+  background-color: #017164;
 }
 .container-hero {
   display: flex;
@@ -156,12 +165,16 @@ ol {
   border: none;
   cursor: pointer;
   padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-btn-start:hover,
+.hero-btn-start:focus {
+  background-color: #017164;
 }
 .hero-btn-watch {
   display: flex;
   border: none;
   align-items: center;
-
   background-color: transparent;
   padding: 0;
   cursor: pointer;
@@ -257,6 +270,11 @@ ol {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.feature-btn:hover,
+.feature-btn:focus {
+  background-color: #017164;
 }
 .container-box-3 {
   display: flex;
@@ -388,6 +406,11 @@ ol {
   background: #02897a;
   border: none;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.staff-btn:hover,
+.staff-btn:focus {
+  background-color: #017164;
 }
 .container-news-feed {
   display: flex;
@@ -611,6 +634,11 @@ ol {
   background: #02897a;
   cursor: pointer;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pricing-btn:hover,
+.pricing-btn:focus {
+  background-color: #017164;
 }
 .pricing-btn-green {
   font-family: "Montserrat", sans-serif;
@@ -624,6 +652,11 @@ ol {
   background: #fff;
   cursor: pointer;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pricing-btn-green:hover,
+.pricing-btn-green:focus {
+  background-color: #e0e0e0;
 }
 .container-feedback {
   display: flex;
@@ -731,6 +764,11 @@ ol {
   border: none;
   cursor: pointer;
   padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.promo-btn:hover,
+.promo-btn:focus {
+  background-color: #e0e0e0;
 }
 .promo-screen {
   margin-top: 4px;
@@ -764,8 +802,13 @@ ol {
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: #edfffc;
   border-radius: 50%;
+  background-color: #edfffc;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #017164;
 }
 .fill-svg {
   fill: #fff;
@@ -839,6 +882,11 @@ ol {
   color: #fff;
   cursor: pointer;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #017164;
 }
 .footer-last-text {
   text-align: center;
