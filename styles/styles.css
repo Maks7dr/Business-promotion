@@ -757,17 +757,18 @@ ol {
   display: block;
   width: 40px;
   height: 40px;
-  background-color: #edfffc;
-  border-radius: 50%;
-  position: relative;
 }
 .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #edfffc;
+  border-radius: 50%;
 }
 .fill-svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  fill: #fff;
 }
 .footer-box-resourse {
   display: block;
@@ -819,7 +820,11 @@ ol {
   margin-bottom: 30px;
 }
 .footer-input {
-  margin-bottom: 25px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 325px;
+  height: 48px;
+  padding-left: 42px;
 }
 .footer-btn {
   display: block;
@@ -841,4 +846,17 @@ ol {
   font-size: 16px;
   line-height: 1.875;
   margin-bottom: 40px;
+}
+.footer-box-mobile {
+  position: relative;
+  padding: 0;
+  margin-bottom: 25px;
+}
+.footer-label {
+}
+.footer-mobile-svg {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
 }
