@@ -211,6 +211,9 @@ ol {
   list-style-type: none;
   gap: 30px;
 }
+.feature-item {
+  width: 255px;
+}
 .feature-svg-1 {
   display: block;
   border-radius: 19px;
