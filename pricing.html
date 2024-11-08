@@ -111,14 +111,20 @@
         </ul>
       </section>
       <!-- enterprise -->
-      <section>
-        <h2>ENTERPRISE</h2>
-        <h3>Are you interested in a custom-tailored plan?</h3>
-        <p>
-          Product is a set of advanced features for really large teams with
-          projects.
-        </p>
-        <button type="button">Get in touch with us</button>
+      <section class="enterprice">
+        <div class="container">
+          <h2 class="enterprice-title">ENTERPRISE</h2>
+          <h3 class="enterprice-subtitle">
+            Are you interested in a custom-tailored plan?
+          </h3>
+          <p class="enterprice-text">
+            Product is a set of advanced features for really large teams with
+            projects.
+          </p>
+          <button type="button" class="enterprice-btn">
+            Get in touch with us
+          </button>
+        </div>
       </section>
       <section>
         <h2>Product is being used with great effects alongside:</h2>
@@ -178,31 +184,132 @@
         </ul>
       </section>
       <!-- promo -->
-      <section>
-        <h2>Join 100 Compannies who boost their business with Product</h2>
-        <button type="button">Get This</button>
-        <img src="./images/screen.png" alt="screen" width="351" height="331" />
+      <section class="promo">
+        <div class="container promo-box-container">
+          <div class="promo-box">
+            <h2 class="promo-title">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button type="button" class="promo-btn">Get This</button>
+          </div>
+          <img
+            src="./images/screen.png"
+            alt="screen"
+            width="361"
+            height="331"
+            class="promo-img"
+          />
+        </div>
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <a href="">Product</a>
-      <b>Resource</b>
-      <ul>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">FAQ</a></li>
-      </ul>
-      <b>Legal Stuff</b>
-      <ul>
-        <li><a href="">Disclaimer</a></li>
-        <li><a href="">Financing</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Terms of Service</a></li>
-      </ul>
-      <p>knowing you're always on the best energy deal.</p>
-      <p>Made With Love By Figmaland All Right Reserved</p>
+    <footer class="container">
+      <div class="footer-container">
+        <div class="footer-social">
+          <a href="./index.html" class="logo">
+            <svg width="40" height="36">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+            <p class="logo-text">Product</p>
+          </a>
+          <ul class="footer-social-box">
+            <li class="footer-social-box-group">
+              <a href="" target="_blank" class="footer-link">
+                <svg width="24" height="24" class="fill-svg">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-box-group">
+              <a href="" target="_blank" class="footer-link">
+                <svg width="24" height="24" class="fill-svg">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-box-group">
+              <a href="" target="_blank" class="footer-link">
+                <svg width="24" height="24" class="fill-svg">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-box-resourse">
+          <b class="footer-text-b">Resource</b>
+          <ul class="footer-box-resourse-group">
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-resourse-link"
+                >About Us</a
+              >
+            </li>
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-resourse-link"
+                >Blog</a
+              >
+            </li>
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-resourse-link"
+                >Contact</a
+              >
+            </li>
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-resourse-link"
+                >FAQ</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-box-stuff">
+          <b class="footer-text-b">Legal Stuff</b>
+          <ul class="footer-staff-box-group">
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-stuff-link"
+                >Disclaimer</a
+              >
+            </li>
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-stuff-link"
+                >Financing</a
+              >
+            </li>
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-stuff-link"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="footer-text-link">
+              <a href="" target="_blank" class="footer-box-stuff-link"
+                >Terms of Service</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <p class="footer-text-p">
+            knowing you're always on<br />
+            the best energy deal.
+          </p>
+          <div class="footer-box-mobile">
+            <label for="email" class="footer-label"></label>
+            <input
+              id="email"
+              type="email"
+              name="Email"
+              placeholder="Enter your phone number"
+              class="footer-input"
+            />
+            <svg width="18" height="28" class="footer-mobile-svg">
+              <use href="./images/icons.svg#mobile"></use>
+            </svg>
+          </div>
+          <button type="button" class="footer-btn">Sign up Now</button>
+        </div>
+      </div>
+      <p class="footer-last-text">
+        Made With Love By Figmaland All Right Reserved
+      </p>
     </footer>
   </body>
 </html>
