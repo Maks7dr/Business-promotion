@@ -471,203 +471,17 @@ button {
   margin-bottom: 100px;
   align-items: center;
 }
+
 .news-title {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .news-title-text {
-  font-weight: 500;
   font-size: 16px;
 }
-.pricing-box {
-  display: flex;
-  gap: 72px;
-  list-style-type: none;
-}
-.pricing-box-group {
-  border-radius: 8px;
-  width: 322px;
-  height: 456px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 32px;
-}
-.pricing-box-group-green {
-  border-radius: 8px;
-  width: 322px;
-  height: 456px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
-  background: #02897a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 32px;
-}
-.pricing-group-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.66667;
-  margin-bottom: 8px;
-}
-.pricing-group-title-green {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.66667;
-  margin-bottom: 8px;
-  color: #fff;
-}
-.pricing-group-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 2.5;
-  margin-bottom: 15px;
-}
-.pricing-group-text-green {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 2.5;
-  margin-bottom: 15px;
-  color: #fff;
-}
-.pricing-box-span {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  margin-bottom: 15px;
-}
-.pricing-box-span-green {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  margin-bottom: 15px;
-}
-.pricing-span-figure {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 76px;
-  line-height: 1.31579;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #02897a;
-}
-.pricing-span-figure-green {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 76px;
-  line-height: 1.31579;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #fff;
-}
-.pricing-box-span-group {
-  justify-content: center;
-}
-.pricing-box-span-group-green {
-}
-.pricing-span-buks {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.25;
-  letter-spacing: 0em;
-  color: #02897a;
-}
-.pricing-span-buks-green {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.25;
-  letter-spacing: 0em;
-  color: #fff;
-}
-.pricing-group-time {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1875;
-  letter-spacing: 0.01em;
-  color: #afafaf;
-}
-.pricing-group-time-green {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1875;
-  letter-spacing: 0.01em;
-  color: #e0e0e0;
-}
-.pricing-group-note {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 30px;
-}
-.pricing-group-note-green {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 30px;
-  color: #fff;
-}
-.pricing-group-note-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.375;
-  letter-spacing: 0.01em;
-  font-family: "Montserrat", sans-serif;
-}
-.pricing-group-note-text-green {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.375;
-  letter-spacing: 0.01em;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-}
-.pricing-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: #fff;
-  padding: 0;
-  border-radius: 8px;
-  width: 139px;
-  height: 44px;
-  background: #02897a;
-  cursor: pointer;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.pricing-btn:hover,
-.pricing-btn:focus {
-  background-color: #017164;
-}
-.pricing-btn-green {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: #02897a;
-  padding: 0;
-  border-radius: 8px;
-  width: 139px;
-  height: 44px;
-  background: #fff;
-  cursor: pointer;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.pricing-btn-green:hover,
-.pricing-btn-green:focus {
-  background-color: #e0e0e0;
-}
+
 .container-feedback {
   display: flex;
   flex-direction: column;
@@ -873,6 +687,135 @@ button {
 }
 
 /* #region customers page */
+/* #region pricing */
+.pricing {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.pricing-title {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.pricing-subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.pricing-caption {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 49px;
+}
+.pricing-list {
+  display: flex;
+  gap: 71.35px;
+}
+.pricing-item {
+  border-radius: 8px;
+  width: 322px;
+  height: 100%;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+.text-white {
+  color: #fff;
+  background-color: #02897a;
+}
+.pircing-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  margin-bottom: 8px;
+}
+.pricing-subject {
+  line-height: 2.5;
+  margin-bottom: 12px;
+}
+.pricing-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 154px;
+  height: 100px;
+  margin-bottom: 16px;
+}
+.pricing-span {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+.pricing-row {
+  display: block;
+}
+.pricing-baks {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  margin-bottom: 4px;
+}
+.pricing-month {
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+.pricing-box-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 38px;
+}
+.pricing-box-item {
+}
+.pricing-box-text {
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.pricing-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background: #02897a;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pricing-btn:hover,
+.pricing-btn:focus {
+  background-color: #017164;
+}
+.btn-green {
+  color: #02897a;
+  background-color: #fff;
+}
+.btn-green:hover,
+.btn-green:focus {
+  background-color: #e0e0e0;
+}
+.span-green {
+  color: #fff;
+}
+.baks-green {
+  color: #fff;
+}
+/* #endregion pricing */
 
 /* #region client */
 
@@ -1105,9 +1048,16 @@ button {
 /* #region promo */
 
 .promo {
-  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+  background-color: linear-gradient(
+    180deg,
+    #f5f5f5 0%,
+    rgba(245, 245, 245, 0) 100%
+  );
   padding-top: 150px;
   padding-bottom: 150px;
+}
+.pricing-promo {
+  background-color: #fff;
 }
 .promo-box-container {
   border-radius: 32px;
@@ -1200,5 +1150,100 @@ button {
 }
 
 /* #endregion enterprice */
+
+/* #region used */
+
+.used {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.used-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+.used-box {
+  display: flex;
+  gap: 39px;
+  align-items: center;
+}
+.used-img {
+}
+.used-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.used-item {
+}
+
+.used-list-box {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.used-list-container {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background: #f4f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.used-caption {
+  font-weight: 600;
+  font-size: 24px;
+}
+.used-text {
+  line-height: 1.75;
+  margin-left: 8px;
+}
+
+/* #endregion used */
+
+/* #region asked */
+
+.asked {
+}
+.asked-title {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.asked-subtitle {
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.asked-list {
+  display: flex;
+  flex-direction: column;
+  width: 920px;
+  gap: 38px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.asked-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+.asked-block {
+  display: block;
+}
+.asked-img {
+}
+.asked-caption {
+  font-weight: 500;
+  font-size: 18px;
+}
+.asked-text {
+}
+
+/* #endregion asked */
 
 /* #engregion pircing page */
