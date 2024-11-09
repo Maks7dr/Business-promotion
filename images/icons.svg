@@ -607,5 +607,11 @@
     <path d="M1 0H7V24H1C0.734784 24 0.480429 23.8946 0.292892 23.7071C0.105356 23.5196 0 23.2652 0 23V1C0 0.734784 0.105356 0.480429 0.292892 0.292892C0.480429 0.105356 0.734784 0 1 0Z" fill="#8C30F5" />
     <path d="M9 0H15C15.2652 0 15.5196 0.105356 15.7071 0.292892C15.8946 0.480429 16 0.734784 16 1V23C16 23.2652 15.8946 23.5196 15.7071 23.7071C15.5196 23.8946 15.2652 24 15 24H9V0Z" fill="#2EC5CE" />
 </symbol>
+<symbol id="menu" viewBox="0 0 28 31">
+<path d="M3.5 15.5H24.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M3.5 7.75H24.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M3.5 23.25H24.5"  stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+</symbol>
 </defs>
 </svg>
