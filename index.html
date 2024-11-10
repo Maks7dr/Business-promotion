@@ -15,40 +15,42 @@
   </head>
   <body>
     <!-- #region header -->
-    <header class="container header">
-      <nav class="nav">
-        <a href="./index.html" class="logo">
-          <svg width="40" height="36">
-            <use href="./images/icons.svg#icon-logo"></use>
-          </svg>
-          <p class="logo-text">Product</p>
-        </a>
-        <ul class="logo-menu">
-          <li class="menu-calc">
-            <a href="./index.html" class="menu active-menu">Product</a>
+    <header class="container">
+      <div class="header">
+        <nav class="nav">
+          <a href="./index.html" class="logo">
+            <svg width="40" height="36">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+            <p class="logo-text">Product</p>
+          </a>
+          <ul class="logo-menu">
+            <li class="menu-calc">
+              <a href="./index.html" class="menu active-menu">Product</a>
+            </li>
+            <li><a href="./customers.html" class="menu">Customers</a></li>
+            <li><a href="./pricing.html" class="menu">Pricing</a></li>
+            <li><a href="" class="menu">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="button">
+          <li>
+            <button type="button" name="sing in" class="btn-sign-in-white">
+              Sign In
+            </button>
           </li>
-          <li><a href="./customers.html" class="menu">Customers</a></li>
-          <li><a href="./pricing.html" class="menu">Pricing</a></li>
-          <li><a href="" class="menu">Resources</a></li>
+          <li>
+            <button type="button" name="sing in" class="btn-sign-in-black">
+              Sign Up
+            </button>
+          </li>
         </ul>
-      </nav>
-      <ul class="button">
-        <li>
-          <button type="button" name="sing in" class="btn-sign-in-white">
-            Sign In
-          </button>
-        </li>
-        <li>
-          <button type="button" name="sing in" class="btn-sign-in-black">
-            Sign Up
-          </button>
-        </li>
-      </ul>
-      <button class="menu-btn">
-        <svg width="28" height="31" class="menu-fill">
-          <use href="./images/icons.svg#menu"></use>
-        </svg>
-      </button>
+        <button class="menu-btn">
+          <svg width="28" height="31" class="menu-fill">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
     </header>
     <!-- #endregion -->
     <!-- main -->
@@ -81,7 +83,7 @@
             </ul>
           </div>
           <div class="hero-img">
-            <svg width="610" height="555">
+            <svg width="610" height="555" class="hero-img-svg">
               <use href="./images/icons.svg#hero-img"></use>
             </svg>
           </div>
