@@ -49,7 +49,7 @@ a {
   margin-right: auto;
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 425px) {
   .container {
     max-width: 1110px;
   }
@@ -107,7 +107,7 @@ a {
   stroke: #2d3943;
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 425px) {
   .logo-menu,
   .button {
     padding: 0;
@@ -262,7 +262,7 @@ a {
   height: 310.92px;
 }
 
-@media screen and (min-width: 412px) {
+@media screen and (min-width: 425px) {
   .container-hero {
     flex-direction: row;
     padding: 25px, 0, 100px;
@@ -288,5 +288,22 @@ a {
     width: 610px;
     height: 555px;
   }
+}
+/* #endregion */
+
+/* #region feature */
+
+.feature {
+  padding-bottom: 100px;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 539px;
+  margin-bottom: 50px;
 }
 /* #endregion */
