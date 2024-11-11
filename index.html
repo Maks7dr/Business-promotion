@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&
+      family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
@@ -15,8 +15,8 @@
   </head>
   <body>
     <!-- #region header -->
-    <header class="container">
-      <div class="header">
+    <header class="header">
+      <div class="header-container container">
         <nav class="nav">
           <a href="./index.html" class="logo">
             <svg width="40" height="36">
@@ -56,8 +56,8 @@
     <!-- main -->
     <main>
       <!-- hero -->
-      <section class="container">
-        <div class="container-hero">
+      <section class="hero">
+        <div class="hero-container container">
           <div class="hero">
             <h1 class="hero-title">Work at the speed of thought</h1>
             <p class="hero-text">
@@ -133,7 +133,7 @@
                   <use href="./images/icons.svg#icon-4"></use>
                 </svg>
               </div>
-              <h3>Five second tests</h3>
+              <h3 class="feature-name">Five second tests</h3>
               <p class="feature-text">
                 Personal choices and the overall personality of the person.
               </p>
@@ -142,30 +142,30 @@
           <button type="button" class="feature-btn">SIGN UP NOW</button>
         </div>
       </section>
-      <!-- bisiness manager -->
-      <section class="hidden">
+      <!-- business manager -->
+      <section class="wrapper-section">
         <div class="container container-wrapper">
-          <div class="manager-box">
-            <h2 class="manager-title">
+          <div class="wrapper-box">
+            <h2 class="title">
               Effortless Validation for<br />
-              <span class="manager-span">Management</span>
+              <span class="title-current">Management</span>
             </h2>
-            <p class="manager-text">
+            <p class="text text-bottom">
               The Myspace page defines the individual, his or her
               characteristics, traits, personal choices and the overall
               personality of the person.
             </p>
-            <ul class="manager-chouse">
+            <ul class="wrapper-list">
               <li>
-                <h3 class="manager-chouse-title">Accessory makers</h3>
-                <p class="manager-chouse-text">
+                <h3 class="subtitle">Accessory makers</h3>
+                <p class="text">
                   While most people enjoy casino gambling, sports betting,
                   lottery and bingo playing for the fun
                 </p>
               </li>
               <li>
-                <h3 class="manager-chouse-title">Alterationists</h3>
-                <p class="manager-chouse-text">
+                <h3 class="subtitle">Alterationists</h3>
+                <p class="text">
                   If you are looking for a new way to promote your business that
                   won’t cost you more money,
                 </p>
@@ -173,44 +173,44 @@
             </ul>
           </div>
           <div>
-            <svg width="540" height="500" class="manager-svg">
+            <svg width="540" height="500">
               <use href="./images/icons.svg#management"></use>
             </svg>
           </div>
         </div>
       </section>
       <!-- support -->
-      <section class="hidden">
-        <div class="container container-wrapper">
+      <section class="wrapper-section">
+        <div class="container container-wrapper support-reverse">
           <div>
-            <svg width="540" height="500" class="support-svg">
+            <svg width="540" height="500">
               <use href="./images/icons.svg#support-img"></use>
             </svg>
           </div>
-          <div class="support-box">
-            <h2 class="manager-title">
+          <div class="wrapper-box">
+            <h2 class="title">
               Easier decision making for<br />
-              <span class="manager-span">Customer Support</span>
+              <span class="title-current">Customer Support</span>
             </h2>
-            <p class="support-text">
+            <p class="text text-bottom">
               The Myspace page defines the individual, his or her
               characteristics, traits, personal choices and the overall
               personality of the person.
             </p>
-            <ul class="support-chouse">
+            <ul class="wrapper-list">
               <li>
-                <p class="manager-chouse-text">
+                <p class="text">
                   Never worry about overpaying for your energy again.
                 </p>
               </li>
               <li>
-                <p class="manager-chouse-text">
+                <p class="text">
                   We will only switch you to energy companies that we trust and
                   will treat you right
                 </p>
               </li>
               <li>
-                <p class="manager-chouse-text">
+                <p class="text">
                   We track the markets daily and know where the savings are.
                 </p>
               </li>
@@ -219,36 +219,36 @@
         </div>
       </section>
       <!-- collaboration -->
-      <section class="hidden">
+      <section class="wrapper-section">
         <div class="container container-wrapper">
-          <div class="manager-box">
-            <h2 class="manager-title">
+          <div class="wrapper-box">
+            <h2 class="title">
               Optimisation for<br />
-              <span class="manager-span">Collaborative</span>
+              <span class="title-current">Collaborative</span>
             </h2>
-            <p class="manager-text">
+            <p class="text text-bottom">
               Few would argue that, despite the advancements of feminism over
               the past three decades, women still face a double standard when it
               comes to their behavior.
             </p>
-            <ul class="manager-chouse">
+            <ul class="wrapper-list">
               <li>
-                <h3 class="manager-chouse-title">Accessory makers</h3>
-                <p class="manager-chouse-text">
+                <h3 class="subtitle">Accessory makers</h3>
+                <p class="text">
                   While most people enjoy casino gambling, sports betting,
                   lottery and bingo playing for the fun
                 </p>
               </li>
               <li>
-                <h3 class="manager-chouse-title">Alterationists</h3>
-                <p class="manager-chouse-text">
+                <h3 class="subtitle">Alterationists</h3>
+                <p class="text">
                   If you are looking for a new way to promote your business that
                   won’t cost you more money,
                 </p>
               </li>
             </ul>
           </div>
-          <div class="manager-svg">
+          <div>
             <svg width="540" height="500">
               <use href="./images/icons.svg#collaboration-img"></use>
             </svg>
@@ -256,11 +256,11 @@
         </div>
       </section>
       <!-- staff -->
-      <section class="hidden">
+      <section class="staff">
         <div class="container container-box">
           <div class="staff-box">
-            <h2 class="manager-span">Quick & Easy Process</h2>
-            <p class="manager-chouse-text">
+            <h2 class="title-current">Quick & Easy Process</h2>
+            <p class="staff-text">
               Do you require some help for your project: Conception workshop,
               prototyping, marketing strategy, landing page, Ux/UI?
             </p>
@@ -327,7 +327,7 @@
         </div>
       </section>
       <!-- news feed -->
-      <section class="hidden">
+      <section class="">
         <div class="container container-news-feed">
           <h2 class="news-title">Contents Strategies</h2>
           <p class="news-title-text">
@@ -384,7 +384,7 @@
         </div>
       </section>
       <!-- pricing -->
-      <section class="pricing-bottom hidden">
+      <section class="pricing-bottom">
         <div class="container">
           <h2 class="pricing-title">Price Table</h2>
           <p class="pricing-caption news-title-text">
@@ -466,7 +466,7 @@
         </div>
       </section>
       <!-- feedback -->
-      <section class="hidden">
+      <section class="">
         <div class="container container-feedback">
           <h2 class="feedback-title">What Clients Say</h2>
           <p class="feedback-title-text">
@@ -547,7 +547,7 @@
         </div>
       </section>
       <!-- promo -->
-      <section class="promo hidden">
+      <section class="promo">
         <div class="container promo-box-container">
           <div class="promo-box">
             <h2 class="promo-title">
@@ -566,7 +566,7 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="container hidden">
+    <footer class="container">
       <div class="footer-container">
         <div class="footer-social">
           <a href="./index.html" class="logo">
