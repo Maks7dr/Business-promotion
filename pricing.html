@@ -14,35 +14,42 @@
   </head>
   <body>
     <!-- header -->
-    <header class="container header">
-      <nav class="nav">
-        <a href="./index.html" class="logo">
-          <svg width="40" height="36">
-            <use href="./images/icons.svg#icon-logo"></use>
-          </svg>
-          <p class="logo-text">Product</p>
-        </a>
-        <ul class="logo-menu">
-          <li class="menu-calc">
-            <a href="./index.html" class="menu">Product</a>
+    <header class="header">
+      <div class="header-container container">
+        <nav class="nav">
+          <a href="./index.html" class="logo">
+            <svg width="40" height="36">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+            <p class="logo-text">Product</p>
+          </a>
+          <ul class="logo-menu">
+            <li class="menu-calc">
+              <a href="./index.html" class="menu active-menu">Product</a>
+            </li>
+            <li><a href="./customers.html" class="menu">Customers</a></li>
+            <li><a href="./pricing.html" class="menu">Pricing</a></li>
+            <li><a href="" class="menu">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="button">
+          <li>
+            <button type="button" name="sing in" class="btn-sign-in-white">
+              Sign In
+            </button>
           </li>
-          <li><a href="./customers.html" class="menu">Customers</a></li>
-          <li><a href="./pricing.html" class="menu active-menu">Pricing</a></li>
-          <li><a href="" class="menu">Resources</a></li>
+          <li>
+            <button type="button" name="sing in" class="btn-sign-in-black">
+              Sign Up
+            </button>
+          </li>
         </ul>
-      </nav>
-      <ul class="button">
-        <li>
-          <button type="button" name="sing in" class="btn-sign-in-white">
-            Sign In
-          </button>
-        </li>
-        <li>
-          <button type="button" name="sing in" class="btn-sign-in-black">
-            Sign Up
-          </button>
-        </li>
-      </ul>
+        <button class="menu-btn">
+          <svg width="28" height="31" class="menu-fill">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
     </header>
     <!-- main -->
     <main>
@@ -263,8 +270,8 @@
         </div>
       </section>
       <!-- promo -->
-      <section class="promo pricing-promo">
-        <div class="container promo-box-container">
+      <section class="promo">
+        <div class="container promo-container">
           <div class="promo-box">
             <h2 class="promo-title">
               Join 100 Compannies who boost their business with Product
@@ -282,8 +289,8 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="container">
-      <div class="footer-container">
+    <footer>
+      <div class="footer-container container">
         <div class="footer-social">
           <a href="./index.html" class="logo">
             <svg width="40" height="36">
@@ -291,23 +298,23 @@
             </svg>
             <p class="logo-text">Product</p>
           </a>
-          <ul class="footer-social-box">
-            <li class="footer-social-box-group">
-              <a href="" target="_blank" class="footer-link">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="" target="_blank" class="social-link">
                 <svg width="24" height="24" class="fill-svg">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-box-group">
-              <a href="" target="_blank" class="footer-link">
+            <li class="social-item">
+              <a href="" target="_blank" class="social-link">
                 <svg width="24" height="24" class="fill-svg">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-box-group">
-              <a href="" target="_blank" class="footer-link">
+            <li class="social-item">
+              <a href="" target="_blank" class="social-link">
                 <svg width="24" height="24" class="fill-svg">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
@@ -315,51 +322,45 @@
             </li>
           </ul>
         </div>
-        <div class="footer-box-resourse">
+        <div class="footer-resourse">
           <b class="footer-text-b">Resource</b>
-          <ul class="footer-box-resourse-group">
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
+          <ul>
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link"
                 >About Us</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
-                >Blog</a
-              >
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link">Blog</a>
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link"
                 >Contact</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
-                >FAQ</a
-              >
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link">FAQ</a>
             </li>
           </ul>
         </div>
-        <div class="footer-box-stuff">
+        <div class="footer-stuff">
           <b class="footer-text-b">Legal Stuff</b>
-          <ul class="footer-staff-box-group">
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
+          <ul>
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link"
                 >Disclaimer</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
-                >Financing</a
-              >
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link">Financing</a>
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link"
                 >Privacy Policy</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link"
                 >Terms of Service</a
               >
             </li>
@@ -371,7 +372,7 @@
             the best energy deal.
           </p>
           <div class="footer-box-mobile">
-            <label for="email" class="footer-label"></label>
+            <label for="email"></label>
             <input
               id="email"
               type="email"

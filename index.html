@@ -14,7 +14,7 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- #region header -->
+    <!-- header -->
     <header class="header">
       <div class="header-container container">
         <nav class="nav">
@@ -52,7 +52,6 @@
         </button>
       </div>
     </header>
-    <!-- #endregion -->
     <!-- main -->
     <main>
       <!-- hero -->
@@ -327,10 +326,10 @@
         </div>
       </section>
       <!-- news feed -->
-      <section class="">
-        <div class="container container-news-feed">
+      <section class="news">
+        <div class="container container-news">
           <h2 class="news-title">Contents Strategies</h2>
-          <p class="news-title-text">
+          <p class="news-subtext">
             We focus on ergonomics and meeting you where you work. It's only a
             keystroke away.
           </p>
@@ -384,12 +383,10 @@
         </div>
       </section>
       <!-- pricing -->
-      <section class="pricing-bottom">
+      <section class="pricing">
         <div class="container">
           <h2 class="pricing-title">Price Table</h2>
-          <p class="pricing-caption news-title-text">
-            We offer competitive price
-          </p>
+          <p class="pricing-caption">We offer competitive price</p>
           <ul class="pricing-list">
             <li class="pricing-item">
               <h3 class="pircing-heading">Free</h3>
@@ -466,7 +463,7 @@
         </div>
       </section>
       <!-- feedback -->
-      <section class="">
+      <section class="feedback">
         <div class="container container-feedback">
           <h2 class="feedback-title">What Clients Say</h2>
           <p class="feedback-title-text">
@@ -482,7 +479,7 @@
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <div class="feedback-box-group-people">
+              <div class="feedback-people">
                 <img
                   src="./images/Ellipse-2.png"
                   alt="Ellipse-2"
@@ -490,9 +487,7 @@
                   height="50"
                 />
                 <div>
-                  <a href="" class="feedback-box-group-people-wahid"
-                    >Wahid Ari</a
-                  >
+                  <a href="" class="feedback-people-wahid">Wahid Ari</a>
                   <p class="feedback-text-desiner">Designer</p>
                 </div>
               </div>
@@ -505,7 +500,7 @@
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <div class="feedback-box-group-people">
+              <div class="feedback-people">
                 <img
                   src="./images/Ellipse-1.png"
                   alt="Ellipse-1"
@@ -513,9 +508,7 @@
                   height="50"
                 />
                 <div>
-                  <a href="" class="feedback-box-group-people-wahid"
-                    >Wahid Ari</a
-                  >
+                  <a href="" class="feedback-people-wahid">Wahid Ari</a>
                   <p class="feedback-text-desiner">Designer</p>
                 </div>
               </div>
@@ -528,7 +521,7 @@
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>
-              <div class="feedback-box-group-people">
+              <div class="feedback-people">
                 <img
                   src="./images/Ellipse-3.png"
                   alt="Ellipse-3"
@@ -536,9 +529,7 @@
                   height="50"
                 />
                 <div>
-                  <a href="" class="feedback-box-group-people-wahid"
-                    >Wahid Ari</a
-                  >
+                  <a href="" class="feedback-people-wahid">Wahid Ari</a>
                   <p class="feedback-text-desiner">Designer</p>
                 </div>
               </div>
@@ -548,7 +539,7 @@
       </section>
       <!-- promo -->
       <section class="promo">
-        <div class="container promo-box-container">
+        <div class="container promo-container">
           <div class="promo-box">
             <h2 class="promo-title">
               Join 100 Compannies who boost their business with Product
@@ -566,8 +557,8 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="container">
-      <div class="footer-container">
+    <footer>
+      <div class="footer-container container">
         <div class="footer-social">
           <a href="./index.html" class="logo">
             <svg width="40" height="36">
@@ -575,23 +566,23 @@
             </svg>
             <p class="logo-text">Product</p>
           </a>
-          <ul class="footer-social-box">
-            <li class="footer-social-box-group">
-              <a href="" target="_blank" class="footer-link">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="" target="_blank" class="social-link">
                 <svg width="24" height="24" class="fill-svg">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-box-group">
-              <a href="" target="_blank" class="footer-link">
+            <li class="social-item">
+              <a href="" target="_blank" class="social-link">
                 <svg width="24" height="24" class="fill-svg">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-box-group">
-              <a href="" target="_blank" class="footer-link">
+            <li class="social-item">
+              <a href="" target="_blank" class="social-link">
                 <svg width="24" height="24" class="fill-svg">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
@@ -599,51 +590,45 @@
             </li>
           </ul>
         </div>
-        <div class="footer-box-resourse">
+        <div class="footer-resourse">
           <b class="footer-text-b">Resource</b>
-          <ul class="footer-box-resourse-group">
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
+          <ul>
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link"
                 >About Us</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
-                >Blog</a
-              >
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link">Blog</a>
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link"
                 >Contact</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-resourse-link"
-                >FAQ</a
-              >
+            <li>
+              <a href="" target="_blank" class="footer-resourse-link">FAQ</a>
             </li>
           </ul>
         </div>
-        <div class="footer-box-stuff">
+        <div class="footer-stuff">
           <b class="footer-text-b">Legal Stuff</b>
-          <ul class="footer-staff-box-group">
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
+          <ul>
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link"
                 >Disclaimer</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
-                >Financing</a
-              >
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link">Financing</a>
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link"
                 >Privacy Policy</a
               >
             </li>
-            <li class="footer-text-link">
-              <a href="" target="_blank" class="footer-box-stuff-link"
+            <li>
+              <a href="" target="_blank" class="footer-stuff-link"
                 >Terms of Service</a
               >
             </li>
@@ -655,7 +640,7 @@
             the best energy deal.
           </p>
           <div class="footer-box-mobile">
-            <label for="email" class="footer-label"></label>
+            <label for="email"></label>
             <input
               id="email"
               type="email"
