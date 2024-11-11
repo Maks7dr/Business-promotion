@@ -54,17 +54,9 @@ a {
   gap: 84px;
 }
 
-/* .promo {
-  background-color: linear-gradient(
-    180deg,
-    #f5f5f5 0%,
-    rgba(245, 245, 245, 0) 100%
-  );
-  padding-top: 150px;
-  padding-bottom: 150px;
-} */
-
 /* #endregion common*/
+
+/* #region index page */
 
 /* #region header */
 .header {
@@ -811,6 +803,8 @@ a {
 }
 /* #endregion footer*/
 
+/* #endregion index page*/
+
 /* #region customers page */
 
 /* #region client */
@@ -858,12 +852,12 @@ a {
 .product-item {
   border: 1px solid #dedede;
   border-radius: 10px;
-  padding: 40px 50px;
+  padding-top: 32px;
+  padding-bottom: 34px;
   width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .product-box {
   border-radius: 19px;
@@ -908,14 +902,14 @@ a {
 /* #region work */
 
 .work {
-  padding-top: 101px;
+  padding-top: 103px;
   padding-bottom: 115px;
 }
 .work-title {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
-  margin-bottom: 73px;
+  margin-bottom: 71px;
 }
 .work-list {
   display: flex;
@@ -981,7 +975,6 @@ a {
   text-align: center;
   width: 537px;
   margin-bottom: 93px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1041,9 +1034,23 @@ a {
 
 /* #endregion join */
 
+/* #region promo */
+.promo-top {
+  padding-top: 150px;
+}
+/* #endregion */
+
 /* #endregion customers page */
 
-/* #region pircing page */
+/* #region pricing page */
+
+/* #region pricing */
+
+.pricing-bottom {
+  padding-bottom: 150px;
+}
+
+/* #endregion */
 
 /* #region enterprice */
 
@@ -1082,7 +1089,6 @@ a {
   width: 224px;
   height: 44px;
   border: none;
-  text-align: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .enterprice-btn:hover,
@@ -1106,10 +1112,11 @@ a {
 }
 .used-box {
   display: flex;
-  gap: 39px;
+  gap: 60px;
   align-items: center;
 }
 .used-img {
+  display: block;
 }
 .used-list {
   display: flex;
@@ -1121,7 +1128,7 @@ a {
 
 .used-list-box {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   align-items: center;
   margin-bottom: 16px;
 }
@@ -1148,6 +1155,7 @@ a {
 /* #region asked */
 
 .asked {
+  padding-bottom: 150px;
 }
 .asked-title {
   font-weight: 700;
@@ -1164,14 +1172,21 @@ a {
   display: flex;
   flex-direction: column;
   width: 920px;
-  gap: 38px;
+  gap: 16px;
   margin-left: auto;
   margin-right: auto;
 }
 .asked-item {
-  display: inline-flex;
+  padding-bottom: 22px;
+  display: flex;
   align-items: center;
   gap: 16px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.asked-wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 .asked-block {
   display: block;
@@ -1187,4 +1202,4 @@ a {
 
 /* #endregion asked */
 
-/* #engregion pircing page */
+/* #endregion pricing page*/
