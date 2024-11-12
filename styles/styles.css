@@ -53,7 +53,7 @@ a {
   align-items: center;
   gap: 84px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1150px) {
   .container {
     max-width: 1110px;
   }
@@ -69,7 +69,6 @@ a {
 
 /* #region header */
 .header {
-  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
   margin: 0 auto;
 }
 .header-container {
@@ -78,6 +77,7 @@ a {
   padding-bottom: 16.64px;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 .logo {
   display: flex;
@@ -108,6 +108,81 @@ a {
 .menu-fill:focus {
   stroke: #2d3943;
 }
+
+@media screen and (min-width: 1150px) {
+  .header-container {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    box-shadow: none;
+  }
+  .nav {
+    display: flex;
+    gap: 237px;
+    margin-right: 73px;
+  }
+  .logo {
+    gap: 16px;
+  }
+  .logo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+  }
+  .menu-calc {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+  }
+  .menu {
+    font-weight: 400;
+    line-height: 1.75;
+    color: #22343d;
+  }
+  .active-menu {
+    font-weight: 600;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 21px;
+  }
+  .btn-sign-in-white {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 105px;
+    height: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #173a56;
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .btn-sign-in-white:hover,
+  .btn-sign-in-white:focus {
+    background-color: #e0e0e0;
+  }
+  .btn-sign-in-black {
+    border-radius: 4px;
+    width: 113px;
+    height: 42px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #02897a;
+    color: #fff;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .btn-sign-in-black:hover,
+  .btn-sign-in-black:focus {
+    background-color: #017164;
+  }
+  .menu-btn {
+    display: none;
+  }
+}
+
 /* #endregion */
 
 /* #endregion */
