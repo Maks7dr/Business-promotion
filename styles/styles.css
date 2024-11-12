@@ -264,7 +264,6 @@ a {
     flex-direction: row;
     gap: 35px;
     justify-content: center;
-    align-items: center;
   }
   .hero-title {
     font-size: 40px;
@@ -298,9 +297,106 @@ a {
 /* #region feature */
 
 .feature {
-  padding-bottom: 50px;
+  padding-top: 16px;
+  padding-bottom: 38px;
 }
-
+.feature-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 331.18px;
+  margin-bottom: 50px;
+}
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+.feature-item {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 24px;
+}
+.feature-svg-1 {
+  background: #02897a;
+}
+.feature-svg-2 {
+  background: #4d8dff;
+}
+.feature-svg-3 {
+  background: #740a76;
+}
+.feature-svg-4 {
+  background: #f03e3d;
+}
+.feature-name {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.feature-text {
+  line-height: 1.63;
+  text-align: center;
+}
+.feature-btn {
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+  background-color: #02897a;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.feature-btn:hover,
+.feature-btn:focus {
+  background-color: #017164;
+}
+@media screen and (min-width: 1150px) {
+  .feature {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  .feature-title {
+    width: 539px;
+  }
+  .feature-list {
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+    align-items: flex-start;
+  }
+  .feature-item {
+    width: 255px;
+    align-items: flex-start;
+  }
+  .feature-svg {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 26px;
+  }
+  .feature-text {
+    line-height: 1.63;
+    text-align: left;
+  }
+}
 /* #endregion */
 
 /* #endregion */
