@@ -489,6 +489,9 @@ a {
   width: 340px;
   justify-content: space-around;
 }
+.staff-item:nth-child(2) {
+  order: 1;
+}
 .staff-img {
   width: 89.66px;
   height: 89.66px;
@@ -549,6 +552,9 @@ a {
   }
   .staff-item {
     width: 408px;
+  }
+  .staff-item:nth-child(2) {
+    order: 0;
   }
   .staff-vector {
     width: 300px;
